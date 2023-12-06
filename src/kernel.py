@@ -16,7 +16,7 @@ from src.data_calculation import pairwise_distance
 
 def kernel(gamma1, gamma2, gamma3, gamma4):
     """
-    Pre-defined Gaussian kernel
+    Pre-defined gaussian kernel
 
     Parameters
     ----------

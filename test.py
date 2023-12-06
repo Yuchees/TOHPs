@@ -25,7 +25,7 @@ def test_pair_dis():
     dft_d_df = pd.read_excel('./data/dft_results.xlsx', sheet_name='donor')
     donor_df = data_calculation.add_fps(
         dft_df=dft_d_df,
-        mol2_path=Path('./data/gaussian/mol2_out')
+        mol2_path=Path('data/gaussian/mol2_out')
     )
     fe_0 = np.array(paired_df.loc[0, 'features'])
     fe_1 = np.array(paired_df.loc[1, 'features'])
